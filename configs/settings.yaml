@@ -1,0 +1,33 @@
+project:
+  name: "Análise Preditiva de Furtos e Roubos na Grande Vitória"
+  version: "1.0.0"
+  default_raw_file: "data/raw/MICRODADOS_OCORRENCIAS.csv"
+  demo_raw_file: "data/raw/MICRODADOS_OCORRENCIAS_DEMO.csv"
+
+scope:
+  start_date: "2021-03-01"
+  end_date: "2026-04-30"
+  municipalities:
+    - "VITÓRIA"
+    - "VILA VELHA"
+    - "SERRA"
+    - "CARIACICA"
+    - "VIANA"
+    - "GUARAPARI"
+    - "FUNDÃO"
+  crime_keywords:
+    - "FURTO"
+    - "ROUBO"
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  cache_dir: "data/cache"
+  external_dir: "data/external"
+  reports_dir: "docs"
+
+modeling:
+  minimum_test_months: 6
+  test_fraction: 0.2
+  high_risk_quantile: 0.75
+  random_state: 42
