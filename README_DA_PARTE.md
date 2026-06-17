@@ -1,13 +1,15 @@
-# 03_Larissa_eda_features
+# 05_Marcelo_classificacao_espacial
 
 Arquivos incluídos neste pacote:
 
-- `src/analysis/__init__.py`
-- `src/analysis/eda.py`
-- `src/features/__init__.py`
-- `src/features/build_features.py`
-- `docs/INSIGHTS_EXPLORATORIOS.md`
-- `data/raw/MICRODADOS_OCORRENCIAS_DEMO.csv`
+- `src/models/classification.py`
+- `src/analysis/spatial.py`
+- `data/external/populacao_municipios_gv.csv`
+- `data/external/vizinhanca_municipios_gv.csv`
+- `data/external/README_FONTES_EXTERNAS.md`
+- `data/external/populacao_gv_template.csv`
+- `data/external/municipios_gv_centroides.csv`
+- `docs/ANALISE_ESPACIAL.md`
 
 ## Como commitar
 
