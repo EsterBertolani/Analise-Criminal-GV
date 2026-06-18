@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Ambientes
+.venv/
+venv/
+env/
+ENV/
+
+# Dados grandes e sensíveis
+*.zip
+*.7z
+*.rar
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+.env
+.streamlit/secrets.toml
+
+# Mantém a estrutura, mas evita subir microdados grandes por acidente
+/data/raw/*.csv
+!/data/raw/README.md
+!/data/raw/MICRODADOS_OCORRENCIAS.csv
+/data/processed/*
+!/data/processed/.gitkeep
+/data/cache/*
+!/data/cache/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db
