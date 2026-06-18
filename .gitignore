@@ -33,7 +33,7 @@ ENV/
 # Mantém a estrutura, mas evita subir microdados grandes por acidente
 /data/raw/*.csv
 !/data/raw/README.md
-!/data/raw/MICRODADOS_OCORRENCIAS_DEMO.csv
+!/data/raw/MICRODADOS_OCORRENCIAS.csv
 /data/processed/*
 !/data/processed/.gitkeep
 /data/cache/*
